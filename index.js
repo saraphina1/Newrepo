@@ -18,7 +18,7 @@ fetch("https://official-joke-api.appspot.com/random_joke")
 
 const tellPunchline = () => {
 punchline.innerHTML= joke.punchline;
-jokeimg.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjqTmPfBFB_PhSQ7sYvgUnUrG8guwjK0m5Ow&usqp=CAU"
+jokeimg.src = "https://media.tenor.com/teSyjKgKFlwAAAAj/haha-lolol.gif"
 resetbtn.style.display = "block"
 
 };
