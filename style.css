@@ -6,12 +6,13 @@ body{
 
 }
 main{
-    margin-top: 15%;
+    margin-top: 5%;
 }
 button{
     padding: 10px;
     margin-top: 20px;
     width: 30%;
+    cursor: pointer;
     border-radius: 5px;
     border: none;
     background-color: goldenrod;
@@ -21,9 +22,15 @@ button{
 }
 #punchlinebtn{
     display: none;
-    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+button:hover{
+    background-color: rgb(180, 158, 100);
 }
 #resetbtn{
     display: none;
+    margin: auto;
+    margin-top: 20px;
 
 }
